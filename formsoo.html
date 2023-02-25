@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Registration form</title>
+</head>
+<style>
+ table 
+  {
+    border-style:dashed;
+    background-color:lightgreen;
+    border-color:red;
+    width:30%;
+  }
+  .field{
+          width.100%;
+         } 
+  </style>
+ <body><br><br>
+ <form>
+ <table align="center">
+ <tr>
+ <td colspan="2"><h1 align="center">Registration Form</h1></td>
+ </tr>
+ <tr>
+ <td>Enter Name:</td>
+<td><input type="text" name="name"></td>
+</tr>
+<tr>
+<td>Enter email</td>
+<td><input type="email" placeholder="abc@gmail.com"name="email"></input>
+</tr>
+<tr>
+<td><label for="name">Enter Phone no:</label></td>
+<td><input type="number" pattern="[0-9]{12}" placeholder="ex.919876543212"></td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td><input type="radio" value="gender" name="sex">Male</td>
+<td><input type="radio" value="gender" name="sex">Female</td>
+<td><input type="radio"value="gender" name="sex">Other</td>
+</tr>
+<tr>
+<td>Nationality:</td>
+<td><select>
+<option selected>Indian</option>
+<option value="Nepal">Nepal</option>
+<option value="Pak">Pakistan</option>
+<option value="Bhut">Bhutan</option>
+</select>
+</td>
+<tr>
+<td>Languages:</td>
+<td><input type="checkbox" value="lang" name="ab">English</td>
+<td><input type="checkbox" value="lang" name="ab">Malayalam</td>
+<td><input type="checkbox" value="lang" name="ab">Hindi</td>
+<td><input type="checkbox" value="lang" name="ab">French</td>
+</tr>
+<tr align="center">
+<td><input type="reset"></td>
+<td><input type="submit"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>

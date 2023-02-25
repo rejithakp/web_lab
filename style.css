@@ -1,0 +1,61 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    
+}
+
+li{
+    list-style: none;
+    padding: 5px;
+}
+
+#current-date{
+    margin-bottom: 30px;
+}
+
+#calender{
+    background-color: #ffffff;
+    margin:0px 280px;
+    padding: 50px 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+#calender-data{
+    
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(5,1fr);
+    
+}
+
+.last-month{
+
+    color: #8a8a8d;
+}
+
+input,select,button{
+    font-size: 22px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    
+    border: none;
+}
+
+h2{
+    text-align: center;
+    color: #ffffff;
+}
+#input{
+    margin-left: 50px ;
+    margin-bottom: 100px;
+}
+
+.day{
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
